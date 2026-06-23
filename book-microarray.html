@@ -1,92 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Prof. Luis Rueda</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- ----------------------------- Style Section ---------------------------- -->
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <title>Prof. Luis Rueda - Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
 
-<!-- ------------------------------ Header ----------------------------------- -->
-<iframe height="250px" width="100%" scrolling="no" src="header.html" style="border:none; background-color: #e0e0eb; padding:0px 0px;" name="iframe_header">
-<p>Your browser does not support iframes.</p>
+<iframe height="190px" width="100%" scrolling="no" src="header.html" style="border:none; padding:0; display:block;" name="iframe_header">
+  <p>Your browser does not support iframes.</p>
 </iframe>
 
-<div  class="header" id="myHeader">
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications </a>
-    <a href="teaching.html">Teaching </a> 
-    <a href="people.html">People </a>  
-    <a href="resources.html">Resources </a>  
-  </div>
+<div class="header" id="myHeader">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="index.html">Prof. Luis Rueda</a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html" class="active">Publications</a>
+      <a href="teaching.html">Teaching</a> 
+      <a href="people.html">People</a>  
+      <a href="resources.html">Resources</a>  
+    </div>
+  </nav>
 </div>
 
-<!-- --------------------------- Main Body --------------------------  -->
 <div> 
 <head-desc>
-<img style="float: right;" src="images/BookMicroarray.jpg" alt="Microarray Data Analysis" height="250" width="165" />
+  <img style="float: right; margin-left: 20px; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" src="images/BookMicroarray.jpg" alt="Microarray Data Analysis" height="250" width="165" />
 
-<h2>Book</h2>
+  <h2>Book</h2>
 
-<p>This is the main site for the book I have edited, titled "<a href="http://www.crcpress.com/product/isbn/9781466586826" target="_blank">Microarray Image and Data Analysis: Theory and Practice</a>", published by CRC Press / Taylor &amp; Francis in March 2014. This site is being updated periodically.</p>
-<div>
-<h4>Summary</h3>
+  <p>This is the main site for the book I have edited, titled "<a href="http://www.crcpress.com/product/isbn/9781466586826" target="_blank">Microarray Image and Data Analysis: Theory and Practice</a>", published by CRC Press / Taylor &amp; Francis in March 2014. This site is being updated periodically.</p>
+  
+  <div>
+    <h4>Summary</h4>
+    <p>This book overviews microarray image analysis, covering different types of microarrays such as cDNA, protein, tissue, and low- and high-density oligonucleotide arrays. Broad in scope, the book covers the most important aspects of microarray image analysis, including gridding, segmentation, quantification, normalization, clustering, and network analysis.</p>
 
-<p>This book overviews microarray image analysis, covering different types of microarrays such as cDNA, protein, tissue, and low- and high-density oligonucleotide arrays. Broad in scope, the book covers the most important aspects of microarray image analysis, including gridding, segmentation, quantification, normalization, clustering, and network analysis.</p>
+    <h4>Highlights</h4>
+    <ul>
+      <li>Designed as a guide to resources for microarray data, including types, applications, analysis, storage, and retrieval</li>
+      <li>Includes the latest methods in microarray image and data analysis through contributions by top researchers</li>
+      <li>Covers microarrays such as oligonucleotide, tiling, tissue, and protein arrays</li>
+    </ul>
 
-<h4>Highlights</h4>
-
-<ul>
-<li>Designed as a guide to resources for microarray data, including types, applications, analysis, storage, and retrieval</li>
-<li>Includes the latest methods in microarray image and data analysis through contributions by top researchers</li>
-<li>Covers microarrays such as oligonucleotide, tiling, tissue, and protein arrays</li>
-</ul>
-
-<h3>News</h3>
-<ul>
-<li>Mar 2014: The book has been published. It is available at <a href="https://www.amazon.ca/Microarray-Image-Data-Analysis-Practice-ebook/dp/B07H7M2YTW/ref=sr_1_1?ie=UTF8&qid=1545879187&sr=8-1&keywords=microarray+image+and+data+analysis" target="_blank" >Amazon</a> and other sites. Main CRC site: <a href="http://www.crcpress.com/product/isbn/9781466586826" target="_blank">http://www.crcpress.com/product/isbn/9781466586826</a>.</li>
-<li>Oct 2013: The book is currently in the production department and is expected to be published by March 2014.</li>
-</ul>
-
+    <h3>News</h3>
+    <ul>
+      <li>Mar 2014: The book has been published. It is available at <a href="https://www.amazon.ca/Microarray-Image-Data-Analysis-Practice-ebook/dp/B07H7M2YTW/ref=sr_1_1?ie=UTF8&qid=1545879187&sr=8-1&keywords=microarray+image+and+data+analysis" target="_blank">Amazon</a> and other sites. Main CRC site: <a href="http://www.crcpress.com/product/isbn/9781466586826" target="_blank">http://www.crcpress.com/product/isbn/9781466586826</a>.</li>
+      <li>Oct 2013: The book is currently in the production department and is expected to be published by March 2014.</li>
+    </ul>
+  </div>
 </head-desc>	
 </div>
 
-<br><br>
-<!-- --------------------------- Footer --------------------------  -->
 <div class="footer">
-    <p> &#9400; Luis Rueda, 2022</p>
+    <p>&copy; Luis Rueda, 2022</p>
 </div>
 
-
-<!-- ------------------------- Script Section ---------------------- -->
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-
 window.onscroll = function() {myFunction()};
 
-// Make the header of the web page stay fixed
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
@@ -97,7 +73,6 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
 </script>
 </body>
 </html>
