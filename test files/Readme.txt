@@ -1,0 +1,1 @@
+This folder contains test files only. These files can be erased and will not affect the content of the Web site.
